@@ -1,1 +1,2 @@
-## Adicione "/admin.php" após a url para visualizar quem entrou em contato.
+## Cliente: https://exemplocontato.x10.mx/
+## Admin: https://exemplocontato.x10.mx/admin.php
