@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border-collapse: collapse;
+  font-family: 'Mukta', sans-serif;
+}
+
+.autocapitalize {
+  text-transform: capitalize;
+}
+
+.input-empyt {
+  border: 3px solid red !important;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  padding: 10px;
+}
+
+.new-contato {
+  color: black;
+  font-size: 18px;
+  width: 100%;
+  position: relative;
+  -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.397);
+          box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.397);
+}
+
+.new-contato a {
+  text-decoration: none;
+}
+
+.new-contato .vazio {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, 50%);
+          transform: translate(-50%, 50%);
+}
+
+.new-contato th, .new-contato td {
+  text-align: left;
+  padding: 10px;
+}
+
+.new-contato thead {
+  color: black;
+  font-size: 1.1em;
+  background-color: #0D0D0D;
+  padding: 10px;
+  color: white;
+}
+
+.new-contato tbody {
+  text-align: center;
+}
+
+.new-contato tbody tr {
+  border-bottom: 1px solid #a3a3a3;
+  font-size: 1em;
+}
+
+.new-contato tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.new-contato tbody .name_new_contato {
+  text-transform: capitalize;
+}
+
+.new-contato tbody .icon-link {
+  max-width: 30px;
+}
+
+.flex-row {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(222, 222, 222, 0.61)), to(rgba(222, 222, 222, 0.144))), url("../imgs/background.jpeg");
+  background-image: linear-gradient(to bottom, rgba(222, 222, 222, 0.61), rgba(222, 222, 222, 0.144)), url("../imgs/background.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.flex-row .form {
+  margin: 0 auto;
+  width: 50%;
+  height: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 10px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.flex-row .form .input {
+  font-size: 1.5em;
+  border-radius: 2px;
+  padding: 0px 10px;
+  outline: none;
+  border: none;
+  height: 50px;
+}
+
+.flex-row .form .input::-webkit-input-placeholder {
+  text-transform: capitalize;
+  color: #a5a3a3;
+}
+
+.flex-row .form .input:-ms-input-placeholder {
+  text-transform: capitalize;
+  color: #a5a3a3;
+}
+
+.flex-row .form .input::-ms-input-placeholder {
+  text-transform: capitalize;
+  color: #a5a3a3;
+}
+
+.flex-row .form .input::placeholder {
+  text-transform: capitalize;
+  color: #a5a3a3;
+}
+
+.flex-row .form .submit {
+  border: none;
+  background-color: #97BF04;
+  -webkit-transition: .6s;
+  transition: .6s;
+  cursor: pointer;
+}
+
+.flex-row .form .submit:hover {
+  background-color: #467302;
+}
+
+.flex-row .title {
+  text-align: center;
+  margin: 0 auto;
+  color: #f2f2f2;
+  width: 100%;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.486);
+}
+
+.flex-row .title h1 {
+  font-size: 2em;
+}
+
+@media screen and (max-width: 860px) {
+  .hidden-mobile {
+    display: none;
+  }
+  .flex-row {
+    background-position: center center;
+  }
+  .flex-row .form {
+    width: 90%;
+  }
+  .flex-row .title h1 {
+    font-size: 1.5em;
+  }
+}
+/*# sourceMappingURL=style.css.map */
